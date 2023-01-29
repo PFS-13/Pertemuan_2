@@ -6,7 +6,6 @@ public class Soal5 {
 		plat = input.nextLine();
 		input.close();
 		plat = plat.replaceAll("\\s+", "");
-		System.out.println("PLAT IS "+plat);
 		long number = Long.parseLong(plat);
 		number = number - 999999;
 		if(number % 5 == 0) {
